@@ -44,7 +44,7 @@ input[type="text"] {
   border-width: 10px;
   border-style: ridge;
   border-color: chartreuse;
-  background-image: url(".download.png");
+  background-image: url("./download.png");
   background-repeat: no-repeat;
   background-size: cover;
   color: darkred;
