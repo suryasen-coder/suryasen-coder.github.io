@@ -1,3 +1,8 @@
+#credits{
+  border-style: groove;
+  border-color: aliceblue;
+  background-color: blueviolet;
+}
 #clock { 
     font-size: 175px; 
     width: 900px; 
