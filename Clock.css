@@ -2,6 +2,8 @@
   border-style: groove;
   border-color: aliceblue;
   background-color: blueviolet;
+  border-width: 5px;
+  color: aqua;
 }
 #clock { 
     font-size: 175px; 
