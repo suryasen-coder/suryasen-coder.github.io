@@ -1,3 +1,10 @@
+.note{
+  border-style: dashed;
+  border-radius: 4px;
+  border-color: blue;
+  background-color: cornsilk;
+  color: blue;
+}
 .credits{
   border-style: groove;
   border-color: aliceblue;
