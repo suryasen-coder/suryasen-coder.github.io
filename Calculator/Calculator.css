@@ -1,0 +1,51 @@
+body{
+    background-image: url("./image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.title {
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 210px;
+    color: rgb(255, 255, 255);
+    border: solid green 3px;
+    background-image: url("./download.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+input[type="button"] {
+    border-radius: 10px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: black;
+    border-color: green;
+    width: 100%;
+  }
+input[type="text"] {
+    border-radius: 10px;
+    text-align: right;
+    background-color: white;
+    border-color: black;
+    width: 96%;
+  }
+#solve{
+    background-color: white;
+    color: black;
+    width: 610%;
+  }
+.m1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 50px;
+  font-style: oblique;
+  border-width: 10px;
+  border-style: ridge;
+  border-color: chartreuse;
+  background-image: url(".download.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: darkred;
+}
