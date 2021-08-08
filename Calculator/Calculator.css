@@ -1,8 +1,7 @@
 body{
-    background-image: url("./image.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  color: antiquewhite;
+  background-image: linear-gradient(95deg, cyan, skyblue, blue);
+}
 .title {
     border-radius: 20px;
     margin-bottom: 20px;
