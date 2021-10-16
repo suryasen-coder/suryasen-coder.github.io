@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./Calculator.css">
+    <script src="./Calculator.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body text="white">
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="https://suryasen-coder.github.io">
+              <img src="./download-removebg-preview.png" alt="" width="30px" height="30px">
+              Hacknical Codester</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="https://suryasen-coder.github.io">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../About us/aboutus.html">About us</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Social Media
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="https://www.instagram.com/this_is_suryasen/">INSTAGRAM</a></li>
+                    <li><a class="dropdown-item" href="https://twitter.com/HCodester/">TWITTER</a></li>
+                  </ul>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Projects
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="https://suryasen-coder.github.io">Github</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="https://suryasen-coder.github.io/ICT/Indian%20Cricket%20team.html">Indian Cricket Team</a></li>
+                    <li><a class="dropdown-item" href="https://suryasen-coder.github.io/Clock/index.html">Clock</a></li>
+                    <li><a class="dropdown-item" href="https://suryasen-coder.github.io/Calculator/index.html">Calculator</a></li>
+                  </ul>
+                </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Partners
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="https://suryasen-coder.github.io">Codiccted</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="https://code-the-space.github.io">Code The Space</a></li>
+                        <li><a class="dropdown-item" href="#">Unknown Saga</a></li>
+                      </ul>
+                    </li>
+              </ul>
+              <form class="d-flex">
+            </div>
+          </div>
+        </nav>
+    <b><div class=title>Calculator</div></b>
+    <table>
+        <tr>
+            <td><input type="button" value="CA" onclick="clr()" /> </td>
+            <td colspan="3"><input type="text" id="edu"/></td>
+        </tr>
+            <tr> 
+                <td><input type="button" value="C" onclick="backspace()"/></td>
+                <td><input type="button" value="1" onclick="dis('1')" /> </td>
+                <td><input type="button" value="2" onclick="dis('2')" /> </td>
+                <td><input type="button" value="3" onclick="dis('3')" /> </td>
+            </tr>   
+        <tr>
+            <td><input type="button" value="+" onclick="dis('+')" /> </td>
+            <td><input type="button" value="4" onclick="dis('4')" /> </td>
+            <td><input type="button" value="5" onclick="dis('5')" /> </td>
+            <td><input type="button" value="6" onclick="dis('6')" /> </td>
+        </tr>
+        <tr>
+            <td><input type="button" value="-" onclick="dis('-')" /> </td>
+            <td><input type="button" value="7" onclick="dis('7')" /> </td>
+            <td><input type="button" value="8" onclick="dis('8')" /> </td>
+            <td><input type="button" value="9" onclick="dis('9')" /> </td>
+        </tr>
+        <tr>
+            <td><input type="button" value="x" onclick="dis('*')" /> </td>
+            <td><input type="button" value="." onclick="dis('.')" /> </td>
+            <td><input type="button" value="0" onclick="dis('0')" /> </td>
+            <td><input type="button" value="00" onclick="dis('00')" /></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="%" onclick="dis('%')" /></td>
+            <td><input type="button" value="/" onclick="dis('/')" /> </td>   
+        </tr>
+        <td><input id="solve" type="button" value="=" onclick="solve()"/></td>
+    </table>
+    <marquee class="m1" behavior="alternate" direction="right">Developed by-Surya Sen</marquee>
+    <hr size="5px">
+</body>
+</html>
